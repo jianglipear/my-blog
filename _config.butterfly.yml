@@ -1,0 +1,54 @@
+# --------------------------------------
+# Hexo Butterfly Theme Configuration
+# Docs: https://butterfly.js.org/
+# --------------------------------------
+
+# Navigation Settings
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder
+  标签: /tags/ || fas fa-tags
+
+# Code Blocks Settings
+code_blocks:
+  theme: light
+  macStyle: false
+  copy: true
+  language: true
+  shrink: false
+
+# Social media links
+social:
+  fab fa-github: https://github.com/jianglipear || Github || '#24292e'
+
+# Image Settings
+favicon:
+avatar:
+  img: /img/butterfly-icon.png
+  effect: false
+
+# Post Settings
+post_meta:
+  page:
+    date_type: created
+    categories: true
+    tags: true
+  post:
+    date_type: both
+    categories: true
+    tags: true
+
+# Footer Settings
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright: true
+  custom_text:
