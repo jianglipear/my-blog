@@ -31,7 +31,7 @@ social:
 # Image Settings
 favicon:
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/avatar.jpg
   effect: false
 
 # Post Settings

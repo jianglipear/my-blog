@@ -1,7 +1,7 @@
 ---
-title: Daily Work
+title: daily work
 date: 2026-06-21 23:08:12
-tags:Daily Work
+tags: Daily Work
 categories: Daily
 ---
 <details>
