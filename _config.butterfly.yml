@@ -15,6 +15,7 @@ menu:
   归档: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder
   标签: /tags/ || fas fa-tags
+  照片墙: /photo-wall/ || fas fa-images
 
 # Code Blocks Settings
 code_blocks:
@@ -27,6 +28,20 @@ code_blocks:
 # Social media links
 social:
   fab fa-github: https://github.com/jianglipear || Github || '#24292e'
+
+# Share System (custom: 小红书 / 小黑盒)
+share:
+  use: custom
+  custom:
+    xiaohongshu_link: https://xhslink.cn/o/212RVYinsUE
+    xiaoheihe_link: https://web.xiaoheihe.cn/tools/invite_friend/share?heybox_id=72312265
+    xiaohongshu_icon: /img/xiaohongshu.png
+    xiaoheihe_icon: /img/xiaoheihe.png
+
+# Custom CSS / JS inject
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
 
 # Image Settings
 favicon:

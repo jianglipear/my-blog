@@ -1,0 +1,9 @@
+if page.photos && page.photos.length
+  .photo-wall-grid
+    each photo in page.photos
+      a.photo-wall-item(href=photo.src target='_blank' rel='noopener' title=photo.name)
+        img(loading='lazy' src=photo.src alt=photo.name)
+else
+  .photo-wall-empty
+    i.fas.fa-images
+    p 照片墙还是空的，把照片放到 source/img/photo-wall 目录，然后 git push 就会显示在这里
