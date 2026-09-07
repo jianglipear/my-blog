@@ -1,0 +1,21 @@
+.post-share .post-share-custom {
+  display: inline-block;
+}
+
+.post-share .post-share-custom .share-custom-link {
+  margin: 0 4px;
+  display: inline-block;
+  line-height: 0;
+  transition: transform .3s ease;
+}
+
+.post-share .post-share-custom .share-custom-link:hover {
+  transform: scale(1.15);
+}
+
+.post-share .post-share-custom .share-custom-link img {
+  width: 1.85em;
+  height: 1.85em;
+  object-fit: contain;
+  vertical-align: middle;
+}
