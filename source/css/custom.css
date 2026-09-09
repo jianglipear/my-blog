@@ -64,27 +64,15 @@
   margin-bottom: 16px;
 }
 
-.card-info-custom-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  margin: 10px 0;
-}
-
-.card-info-custom-icons a {
-  display: inline-block;
-  line-height: 0;
-  transition: transform .3s ease;
-}
-
-.card-info-custom-icons a:hover {
-  transform: scale(1.15);
-}
-
-.card-info-custom-icons img {
-  width: 1.7rem;
-  height: 1.7rem;
+.card-info-social-icons .social-icon img {
+  width: 1.4em;
+  height: 1.4em;
   object-fit: contain;
-  border-radius: 8px;
+  border-radius: 6px;
+  vertical-align: middle;
+  transition: all .3s;
+}
+
+.card-info-social-icons .social-icon:hover img {
+  transform: scale(1.15);
 }

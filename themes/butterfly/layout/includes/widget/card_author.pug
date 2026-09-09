@@ -25,9 +25,8 @@ if theme.aside.card_author.enable
       .card-info-social-icons
         !=partial('includes/header/social', {}, {cache: true})
 
-    if(theme.share && theme.share.custom)
-      .card-info-custom-icons
-        a(href=theme.share.custom.xiaohongshu_link target='_blank' rel='noopener' title='小红书')
-          img(src=url_for(theme.share.custom.xiaohongshu_icon) alt='小红书')
-        a(href=theme.share.custom.xiaoheihe_link target='_blank' rel='noopener' title='小黑盒')
-          img(src=url_for(theme.share.custom.xiaoheihe_icon) alt='小黑盒')
+        if(theme.share && theme.share.custom)
+          a.social-icon(href=theme.share.custom.xiaohongshu_link target='_blank' rel='noopener' title='小红书')
+            img(src=url_for(theme.share.custom.xiaohongshu_icon) alt='小红书')
+          a.social-icon(href=theme.share.custom.xiaoheihe_link target='_blank' rel='noopener' title='小黑盒')
+            img(src=url_for(theme.share.custom.xiaoheihe_icon) alt='小黑盒')
