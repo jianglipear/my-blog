@@ -29,6 +29,12 @@ code_blocks:
 social:
   fab fa-github: https://github.com/jianglipear || Github || '#24292e'
 
+# Sidebar card author
+aside:
+  card_author:
+    button:
+      link: https://github.com/jianglipear
+
 # Share System (custom: 小红书 / 小黑盒)
 share:
   use: custom
